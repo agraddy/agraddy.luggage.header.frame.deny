@@ -5,18 +5,20 @@
   "main": "index.js",
   "author": "Anthony Graddy",
   "license": "MIT",
+  "luggage": true,
   "homepage": "https://github.com/agraddy/agraddy.luggage.header.frame.deny#readme",
   "scripts": {
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.luggage.header.frame.deny.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.luggage.header.frame.deny.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.luggage.header.frame.deny/issues"
+    "url": "https://github.com/agraddy/agraddy.luggage.header.frame.deny/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.res": "^0.4.0",
+    "agraddy.test.tap": "^0.2.0"
   }
 }
